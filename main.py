@@ -70,7 +70,7 @@ def proccess_reward():
     if(reward == [-1, -1]):
         reward = [random.randint(0, W//w-1), random.randint(0, H//h-1)]
         while(reward in snake):
-            reward = [random.randint(0, W//w-1), random.randint(0, H//h-1)]
+            reward = [random.randit(0, W//w-1), random.randint(0, H//h-1)]
     pygame.draw.rect(screen, red, loc(reward[0], reward[1]))
 die = 0
 
